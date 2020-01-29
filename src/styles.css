@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #101010;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 72px;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
